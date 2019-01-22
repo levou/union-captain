@@ -28,7 +28,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.kxl.union.captain</groupId>
+            <groupId>com.xishui.union.captain</groupId>
             <artifactId>union-captain-watcher-log</artifactId>
             <version>${project.version}</version>
         </dependency>

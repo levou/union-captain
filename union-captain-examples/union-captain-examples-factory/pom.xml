@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>union-captain-examples</artifactId>
-        <groupId>com.kxl.union.captain</groupId>
+        <groupId>com.xishui.union.captain</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -28,20 +28,20 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.kxl.union.captain</groupId>
+            <groupId>com.xishui.union.captain</groupId>
             <artifactId>union-captain-examples-bus</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.kxl.union.captain</groupId>
+            <groupId>com.xishui.union.captain</groupId>
             <artifactId>union-captain-examples-plane</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.kxl.union</groupId>
-            <artifactId>union-component-single</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.kxl.union</groupId>-->
+            <!--<artifactId>union-component-single</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -59,7 +59,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.kxl.union.captain.factory.UnionCaptainFactorySpringApplication</mainClass>
+                    <mainClass>com.xishui.union.captain.factory.UnionCaptainFactorySpringApplication</mainClass>
                 </configuration>
             </plugin>
             <plugin>
