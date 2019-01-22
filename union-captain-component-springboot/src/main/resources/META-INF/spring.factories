@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kxl.union.captain.springboot.ComponentAutoConfiguration,\
+  com.kxl.union.captain.springboot.registry.ComponentRegistry
