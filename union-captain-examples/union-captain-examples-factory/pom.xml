@@ -37,11 +37,6 @@
             <artifactId>union-captain-examples-plane</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.kxl.union</groupId>-->
-            <!--<artifactId>union-component-single</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
     </dependencies>
 
     <build>

@@ -27,12 +27,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.kxl.union.captain</groupId>
+            <groupId>com.xishui.union.captain</groupId>
             <artifactId>union-captain-quartz</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.kxl.union.captain</groupId>
+            <groupId>com.xishui.union.captain</groupId>
             <artifactId>union-captain-zookeeper</artifactId>
             <version>${project.version}</version>
         </dependency>

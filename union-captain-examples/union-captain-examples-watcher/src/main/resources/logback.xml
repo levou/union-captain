@@ -27,7 +27,7 @@
             <MaxFileSize>100MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
-    <logger name="com.kxl.union.captain.watcher.log"  level="info" additivity="false" >
+    <logger name="com.xishui.union.captain.watcher.log"  level="info" additivity="false" >
         <appender-ref ref="watcher-log"/>
         <appender-ref ref="STDOUT"/>
     </logger>
